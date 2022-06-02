@@ -9,7 +9,7 @@ pipeline {
                 bat 'npm install'
             }
         }
-        
+
         stage('Unit Test') {
             steps {
                 echo 'Ejecutando Unit Test'
